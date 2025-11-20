@@ -1,0 +1,30 @@
+{
+  "audio_enhancer": {
+    "target_level_db": -20.0,
+    "compression_ratio": 4.0,
+    "threshold_db": -10.0,
+    "limiter_ceiling": 0.95
+  },
+  "presets": {
+    "speech": {
+      "target_level_db": -16.0,
+      "compression_ratio": 6.0,
+      "description": "Optimisé pour la voix parlée"
+    },
+    "music": {
+      "target_level_db": -20.0,
+      "compression_ratio": 3.0,
+      "description": "Optimisé pour la musique avec plus de dynamique"
+    },
+    "podcast": {
+      "target_level_db": -18.0,
+      "compression_ratio": 5.0,
+      "description": "Optimisé pour les podcasts"
+    },
+    "broadcast": {
+      "target_level_db": -16.0,
+      "compression_ratio": 8.0,
+      "description": "Optimisé pour la diffusion avec compression forte"
+    }
+  }
+}
